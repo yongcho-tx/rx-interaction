@@ -5,6 +5,7 @@ const mongoose = require("mongoose")
 require("dotenv").config()
 const { expressjwt } = require("express-jwt")
 const PORT = process.env.PORT || 9000
+const path = require("path")
 
 process.env.SECRET
 
